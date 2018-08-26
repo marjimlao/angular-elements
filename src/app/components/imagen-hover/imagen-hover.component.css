@@ -1,0 +1,26 @@
+.contenedor {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.contenedor .imagen {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contenedor .capa-texto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.contenedor .capa-texto .texto {
+    font-size: 1.7rem;
+    text-align: center;
+}

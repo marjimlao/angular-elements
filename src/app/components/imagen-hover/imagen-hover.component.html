@@ -1,0 +1,9 @@
+<div class="contenedor" (mouseenter)="mostrarTexto()" (mouseleave)="ocultarTexto()">
+    <img class="imagen" [src]="imagen" [style.width]="ancho" [style.height]="alto">
+
+    <div class="capa-texto" #capaTexto [style.width]="ancho" [style.height]="alto" [style.backgroundColor]="colorFondo" [style.color]="colorTexto">
+        <div class="texto">
+            {{ texto }}
+        </div>
+    </div>
+</div>
